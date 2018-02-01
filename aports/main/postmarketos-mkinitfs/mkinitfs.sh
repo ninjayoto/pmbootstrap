@@ -92,6 +92,7 @@ BINARIES_EXTRA="
 	/sbin/e2fsck
 	/usr/sbin/resize2fs
 	/usr/bin/osk-sdl
+	/usr/bin/charging-sdl
 	/usr/lib/libGL.so.1
 	/usr/lib/ts/*
 	/usr/lib/libts*
