@@ -209,6 +209,7 @@ def get_gcc_version(args, arch):
     <https://linux.die.net/man/1/ccache>
     :returns: a string like "6.4.0-r5"
     """
+    pmb.helpers.repo.update(args, arch)
     repository = args.mirror_alpine + args.alpine_version + "/main"
     hash = pmb.helpers.repo.hash(repository)
     index_path = (args.work + "/cache_apk_" + arch + "/APKINDEX." +
